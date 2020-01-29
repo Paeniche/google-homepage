@@ -14,13 +14,14 @@ body {
 } */
 svg{
     display: block;
-    margin-top: 11px;
-    margin-left: 5px;
+    margin-top: 12px;
+    margin-left: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
     float: left;
     width: 18px;
     height: 18px;
+    opacity: 50%;
 }
 
 input[type="text"]{
