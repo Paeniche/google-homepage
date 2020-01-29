@@ -3,8 +3,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.header-text{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    opacity: 0.75;
+}
+
+header{
+    margin-top: 10px;
+    padding-top: 13px;
+}
+
 main {
-    padding-top: 195px;
+    clear: both;
+    padding-top: 145px;
 }
 
 svg{
@@ -27,18 +40,20 @@ input[type="text"]{
     border-color: transparent;
 }
 
-#search-box:hover{
-    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-}
-
 button{
     height: 47px;
     cursor: pointer;
 }
+
+#search-box:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+
 #search-box{
     border-style: solid;
     border-width: 1px;
-    width: 590px;
+    width: 30%;
     border-radius: 25px;
     border-color: lightgray;
     height: 45px;
@@ -48,4 +63,12 @@ button{
 #buttons{
     margin-top: 35px;
     width: 275px;
+}
+
+#left-header{
+    float: left;
+}
+
+#right-header{
+    float: right;
 }
