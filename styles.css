@@ -8,11 +8,34 @@
     font-family: Arial, sans-serif;
     font-size: 13px;
     opacity: 0.75;
+    padding-top: 13px;
+    text-decoration: none;
+    color: black;
 }
+
+.header-text:hover{
+    text-decoration: underline;
+}
+
+.icon {
+    height: 27px;
+    width: 27px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 25px;
+  }
+.right-header-text{
+    margin-left: 15px;
+    margin-top: 13px;
+}
+
 
 header{
     margin-top: 10px;
-    padding-top: 13px;
+    /* padding-top: 13px; */
 }
 
 main {
@@ -71,4 +94,16 @@ button{
 
 #right-header{
     float: right;
+    margin-right: -6px;
+}
+
+#gm_im{
+    float:left;
+    margin-top: 10px;
+}
+
+#app_pfp{
+    float: right; 
+    margin-left: 20px;
+    margin-top: 5px;
 }
